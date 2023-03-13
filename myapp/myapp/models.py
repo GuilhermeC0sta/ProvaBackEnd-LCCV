@@ -60,6 +60,7 @@ class Alunos(models.Model):
 
     class Meta:
         db_table = 'Alunos'
+        verbose_name_plural = "alunos"
 
 
 class Atividadealuno(models.Model):
@@ -70,6 +71,7 @@ class Atividadealuno(models.Model):
 
     class Meta:
         db_table = 'AtividadeAluno'
+        verbose_name_plural = "atividadealuno"
 
 
 class Atividades(models.Model):
@@ -83,6 +85,7 @@ class Atividades(models.Model):
 
     class Meta:
         db_table = 'Atividades'
+        verbose_name_plural = "atividades"
 
 
 class Disciplinaaluno(models.Model):
@@ -93,6 +96,7 @@ class Disciplinaaluno(models.Model):
 
     class Meta:
         db_table = 'DisciplinaAluno'
+        verbose_name_plural = "disciplinaaluno"
 
 
 class Disciplinas(models.Model):
@@ -105,6 +109,7 @@ class Disciplinas(models.Model):
 
     class Meta:
         db_table = 'Disciplinas'
+        verbose_name_plural = "disciplinas"
 
 
 class Frequencia(models.Model):
@@ -114,6 +119,7 @@ class Frequencia(models.Model):
 
     class Meta:
         db_table = 'Frequencia'
+        verbose_name_plural = "frequencia"
 
 
 class Frequenciaaluno(models.Model):
@@ -124,6 +130,7 @@ class Frequenciaaluno(models.Model):
 
     class Meta:
         db_table = 'FrequenciaAluno'
+        verbose_name_plural = "frequenciaaluno"
 
 
 class Planoaula(models.Model):
@@ -136,6 +143,7 @@ class Planoaula(models.Model):
 
     class Meta:
         db_table = 'PlanoAula'
+        verbose_name_plural = "planoaula"
 
 
 class Professores(models.Model):
@@ -149,3 +157,4 @@ class Professores(models.Model):
 
     class Meta:
         db_table = 'Professores'
+        verbose_name_plural = "professores"
